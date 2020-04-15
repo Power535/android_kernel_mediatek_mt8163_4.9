@@ -1005,6 +1005,19 @@ struct LCM_DRIVER *lcm_driver_list[] = {
         &jd936x_wxga_dsi_vdo_abc123_st_proto_kd_hsd_lcm_drv,
 #endif
 
+#if defined(NT35521_WXGA_DSI_VDO_KARNAK)
+	&nt35521_wxga_dsi_vdo_karnak_kd_lcm_drv,
+#endif
+
+#if defined(JD936X_WXGA_DSI_VDO_KARNAK)
+	&jd9366_wxga_dsi_vdo_karnak_fiti_tpv_lcm_drv,
+	&jd9367_wxga_dsi_vdo_karnak_fiti_kd_lcm_drv,
+	&jd9367_wxga_dsi_vdo_karnak_fiti_inx_lcm_drv,
+	&jd9366_wxga_dsi_vdo_karnak_fiti_starry_lcm_drv,
+	&jd9366_wxga_dsi_vdo_karnak_fiti_kd_lcm_drv,
+	&jd9365_wxga_dsi_vdo_karnak_fiti_kd_hsd_lcm_drv,
+#endif
+
 #if defined(HX8394C_WXGA_DSI_VDO)
 	&hx8394c_wxga_dsi_vdo_lcm_drv,
 #endif

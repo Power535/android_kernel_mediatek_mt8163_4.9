@@ -276,6 +276,11 @@
 #define MT9P017MIPI_SENSOR_ID                   0x4800
 #define MT9T113MIPI_SENSOR_ID                   0x4680
 /* GC */
+#define GC2375MIPI_CHXT_REAR_SENSOR_ID          0x2375
+#define GC2375MIPI_BLX_FRONT_SENSOR_ID          0x2376
+#define GC2375MIPI_LYI_FRONT_SENSOR_ID          0x2377
+#define GC2385MIPI_CHXT_REAR_SENSOR_ID          0x2385
+#define GC2385MIPI_CHXT_FRONT_SENSOR_ID         0x2386
 #define GC02M1MIPI_CXT_REAR_SENSOR_ID           0x02e0
 #define GC2375_SENSOR_ID                        0x2375
 #define GC2375MIPI_CXT_REAR_SENSOR_ID           0x2378
@@ -291,6 +296,9 @@
 #define GC0313MIPI_YUV_SENSOR_ID                0xD0
 #define GC0312_SENSOR_ID                        0xb310
 /* SP */
+#define SP2509MIPI_BLX_REAR_SENSOR_ID           0x2509
+#define SP2509MIPI_CHXT_FRONT_SENSOR_ID         0x250A
+#define SP2509MIPI_LYI_REAR_SENSOR_ID           0x250B
 #define SP0A09_SENSOR_ID                        0x0a09
 #define SP2509_SENSOR_ID                        0x2509
 #define SP2509MIPI_KING_FRONT_SENSOR_ID         0x250B
@@ -457,6 +465,11 @@
 #define SENSOR_DRVNAME_MT9V113_YUV              "mt9v113_yuv"
 #define SENSOR_DRVNAME_MT9T113_MIPI_YUV         "mt9t113_mipi_yuv"
 /* GC */
+#define SENSOR_DRVNAME_GC2375MIPI_RAW_CHXT_REAR		"gc2375mipi_raw_chxt_rear"
+#define SENSOR_DRVNAME_GC2375MIPI_RAW_BLX_FRONT		"gc2375mipi_raw_blx_front"
+#define SENSOR_DRVNAME_GC2375MIPI_RAW_LYI_FRONT		"gc2375mipi_raw_lyi_front"
+#define SENSOR_DRVNAME_GC2385MIPI_RAW_CHXT_REAR		"gc2385mipi_raw_chxt_rear"
+#define SENSOR_DRVNAME_GC2385MIPI_RAW_CHXT_FRONT	"gc2385mipi_raw_chxt_front"
 #define SENSOR_DRVNAME_GC02M1MIPI_RAW_CXT_REAR  "gc02m1mipi_raw_cxt_rear"
 #define SENSOR_DRVNAME_GC2375_MIPI_RAW          "gc2375mipiraw"
 #define SENSOR_DRVNAME_GC2375MIPI_RAW_CXT_REAR  "gc2375mipi_raw_cxt_rear"
@@ -474,6 +487,9 @@
 #define SENSOR_DRVNAME_GC0312_YUV               "gc0312_yuv"
 #define SENSOR_DRVNAME_GC0313MIPI_YUV           "gc0313_mipi_yuv"
 /* SP */
+#define SENSOR_DRVNAME_SP2509MIPI_RAW_BLX_REAR	"sp2509mipi_raw_blx_rear"
+#define SENSOR_DRVNAME_SP2509MIPI_RAW_CHXT_FRONT "sp2509mipi_raw_chxt_front"
+#define SENSOR_DRVNAME_SP2509MIPI_RAW_LYI_REAR	"sp2509mipi_raw_lyi_rear"
 #define SENSOR_DRVNAME_SP0A09_MIPI_RAW          "sp0a09mipiraw"
 #define SENSOR_DRVNAME_SP2509_MIPI_RAW          "sp2509mipiraw"
 #define SENSOR_DRVNAME_SP2509MIPI_RAW_KING_FRONT     "sp2509mipi_raw_king_front"

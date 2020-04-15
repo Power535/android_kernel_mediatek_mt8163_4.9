@@ -1098,6 +1098,55 @@ config BUILD_ARM64_DTB_OVERLAY_IMAGE_NAMES
 	help
 	  Space separated list of names of dtbs to append when
 	  building a concatenated overlay image
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_MIN_NO_APPEND
+	string "Default dtb min names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
+	  Do not append version.
+
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_MIN
+	string "Default dtb min names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
+
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_P0_01
+	string "Default dtb hvt names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
+
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_HVT
+	string "Default dtb hvt names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
+
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_HVT1_2
+	string "Default dtb hvt1.2 names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
+
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_EVT
+	string "Default dtb evt names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
+
+config BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES_DVT
+	string "Default dtb dvt names"
+	depends on BUILD_ARM64_APPENDED_DTB_IMAGE
+	help
+	  Space separated list of names of dtbs to append when
+	  building a concatenated Image.gz-dtb.
 endmenu
 
 menu "Userspace binary formats"
