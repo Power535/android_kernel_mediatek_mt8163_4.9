@@ -3783,7 +3783,7 @@ static ssize_t show_FG_g_slp_current(struct device *dev,
 {
 	return sprintf(buf, "%d\n", g_slp_current);
 }
-static DEVICE_ATTR(FG_g_slp_current, 0640, show_FG_g_slp_current, NULL);
+static DEVICE_ATTR(FG_g_slp_current, 0444, show_FG_g_slp_current, NULL);
 
 
 static ssize_t show_FG_g_fg_dbg_bat_volt(struct device *dev,
