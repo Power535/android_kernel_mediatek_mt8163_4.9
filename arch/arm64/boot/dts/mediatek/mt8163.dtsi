@@ -144,7 +144,7 @@
 
 		ram_console-reserved-memory {
 			compatible = "mediatek,ram_console";
-			reg = <0 0x44400000 0 0x10000>;
+			reg = <0 0x44400000 0 0x200000>;
 		};
 
 		pstore-reserved-memory {
