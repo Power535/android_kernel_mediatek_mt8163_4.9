@@ -17,3 +17,4 @@ config MTK_AUTO_DETECT_ALSPS
 
 source "drivers/misc/mediatek/alsps/stk3x1x_stk/Kconfig"
 source "drivers/misc/mediatek/alsps/jsa1214/Kconfig"
+source "drivers/misc/mediatek/alsps/ltr559/Kconfig"
