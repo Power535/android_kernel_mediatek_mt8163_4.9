@@ -6,3 +6,4 @@ obj-y   +=  accel.o accel_factory.o
 obj-$(CONFIG_MTK_BMA253)   +=  bma253/
 obj-$(CONFIG_MTK_LSM6DS3G)   +=  lsm6ds3g/
 obj-$(CONFIG_MTK_MC3416)   +=  mc3416/
+obj-$(CONFIG_MTK_MC3410_NEW)   +=  mc3410-new/
